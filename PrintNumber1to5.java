@@ -2,12 +2,12 @@ import java.util.Scanner;
 
 public class PrintNumber1to5 {
     public static void Number(int n) {
-        if (n == 6) {
+        if (n == 0) {
             return;
         }
-        System.out.println(n);
-        Number(n + 1);
-
+         Number(n - 1);
+     System.out.println(n);
+       
     }
 
     public static void main(String[] args) {
